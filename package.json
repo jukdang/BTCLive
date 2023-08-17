@@ -1,0 +1,26 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:extension": "vite build --watch",
+    "build": "vite build",
+    "build:zip": "bestzip dist.zip dist/"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "num-to-korean": "^0.5.2",
+    "uuid": "^9.0.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.15",
+    "bestzip": "^2.2.1",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
